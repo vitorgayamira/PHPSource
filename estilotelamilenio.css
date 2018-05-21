@@ -1,0 +1,180 @@
+<style>
+
+
+
+TABLE {
+	border-right-width:1px;
+	border-left-width:1px;
+	border-right-color:#ffffff;
+	border-left-color:#ffffff;
+
+}
+TH {
+	FONT-SIZE: 10px; BACKGROUND-COLOR: #000080; COLOR: #FFFFFF; FONT-FAMILY: verdana,arial,helvetica;
+	PADDING: 2; text-align:left;
+}
+TD {
+	FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica;
+	PADDING: 2;
+}
+TEXTAREA {
+	BORDER-RIGHT: #6073a5 1px solid; BORDER-TOP: #6073a5 1px solid; BORDER-LEFT: #6073a5 1px solid; BORDER-BOTTOM: #6073a5 1px solid
+}
+SELECT {
+	BORDER-RIGHT: #6073a5 1px solid; BORDER-TOP: #6073a5 1px solid; BORDER-LEFT: #6073a5 1px solid; BORDER-BOTTOM: #6073a5 1px solid
+}
+INPUT {
+	BORDER-RIGHT: #6073a5 1px solid; 
+	BORDER-TOP: #6073a5 1px solid; 
+	BORDER-LEFT: #6073a5 1px solid; 
+	BORDER-BOTTOM: #6073a5 1px solid; 
+	}
+}
+
+.input-lbl {
+	FONT-WEIGHT: bold; COLOR: #1f3d7d;
+}
+}
+.input-msg {
+	FONT-SIZE: 10px; COLOR: #1f3d7d;
+}
+     
+
+.input-number {TEXT-ALIGN: right;padding-right:5;}
+/* bgreadonly = {#f5f6f7,#D9DADC}*/
+.input-readonly { 
+	BORDER-RIGHT: #6073a5 1px solid; BORDER-TOP: #6073a5 1px solid; BORDER-LEFT: #6073a5 1px solid; 
+	COLOR: #7f8082; BORDER-BOTTOM: #6073a5 1px solid; BACKGROUND-COLOR: #D9DADC
+}
+.input-readonly2 {
+	BORDER-RIGHT: #6073a5 1px solid; BORDER-TOP: #6073a5 1px solid; BORDER-LEFT: #6073a5 1px solid; 
+	COLOR: #7f8082; BORDER-BOTTOM: #6073a5 1px solid; BACKGROUND-COLOR: #D9DADC; TEXT-ALIGN: right
+}
+.respiro-texto {
+	LINE-HEIGHT: 15px
+}
+
+h1{
+   font-size: 29px;color: black;text-align:center;bold: Negrito text-decoration: none'
+}
+h2{
+   font-size: 26px;color: black;text-align:left;bold: Negrito text-decoration: none'
+}
+
+titulologin{
+   font-size: 20px;color: black;text-align:center;bold: Negrito text-decoration: none'
+}
+
+mostrausuario{
+   font-size: 17px;color: black;text-align:left;bold: Negrito text-decoration: none'
+}
+
+
+
+
+#resultado{
+ width: 950px;
+ height: 350px;
+ overflow-y: auto;
+ background-color:white;
+	}
+
+#primeiro{
+position:absolute;
+
+top:270;
+left:920;
+background-color:#CDC5BF;
+width: 30%;
+height: 36%;
+border-left: 2px solid black;
+border-right: 2px solid black;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+-moz-border-radius:10px;
+/* Firefox, etc */
+-khtml-border-radius:10px;
+/* Konqueror, etc */
+-webkit-border-radius:10px;
+/* Safari, Google Chrome, etc */
+-opera-border-radius:10px;
+
+
+}
+
+#mostraconexaonova{
+position:absolute;
+
+top:70;
+left:420;
+background-color:#CDC5BF;
+width: 40%;
+height: 30%;
+border-left: 2px solid black;
+border-right: 2px solid black;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+-moz-border-radius:10px;
+/* Firefox, etc */
+-khtml-border-radius:10px;
+/* Konqueror, etc */
+-webkit-border-radius:10px;
+/* Safari, Google Chrome, etc */
+-opera-border-radius:10px;
+
+
+}
+
+#telausuario{
+position:absolute;
+
+top:270;
+left:920;
+background-color:#CDC5BF;
+width: 29%;
+height: 34%;
+border-left: 2px solid black;
+border-right: 2px solid black;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+-moz-border-radius:10px;
+/* Firefox, etc */
+-khtml-border-radius:10px;
+/* Konqueror, etc */
+-webkit-border-radius:10px;
+/* Safari, Google Chrome, etc */
+-opera-border-radius:10px;
+}
+
+#telaperfil{
+position:absolute;
+
+top:170;
+left:920;
+background-color:#CDC5BF;
+width: 30%;
+height: 60%;
+border-left: 2px solid black;
+border-right: 2px solid black;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+-moz-border-radius:10px;
+/* Firefox, etc */
+-khtml-border-radius:10px;
+/* Konqueror, etc */
+-webkit-border-radius:10px;
+/* Safari, Google Chrome, etc */
+-opera-border-radius:10px;
+overflow-y: auto;
+}
+
+
+corcampo{
+background-color:red;
+}
+
+
+
+
+</style>
+

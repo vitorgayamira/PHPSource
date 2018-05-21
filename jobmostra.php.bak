@@ -1,0 +1,203 @@
+<?session_start();
+require("conexaoadodb_oracle.php");
+require_once('manipulasql.class_oraclenovo.php');
+require("estilo2_sitenovo_maximiza.css");
+
+
+?>
+<form action="<?=$PHP_SELF?>" method="POST">
+<?
+
+
+
+$continuarmesmatela=$_POST['continuarmesmatela'];
+
+
+if ($continuarmesmatela=="sim"){
+$escolha=$_POST['escolha'];
+$programa=$_POST['programa'];
+$nomecolunaparapassar=$_POST['nomecolunaparapassar'];
+$codigoachou=$_POST['codigoachou'];
+$nomecolunaparapassaracao=$_POST['nomecolunaparapassaracao'];
+$nometabelaparapassar=$_POST['nometabelaparapassar'];
+$numerocolunastela=$_POST['numerocolunastela'];
+$chacontadorgeral=$_POST['chacontadorgeral'];
+$chacontadorgeralupdate=$_POST['chacontadorgeralupdate'];
+$chacontadorgeralinsert=$_POST['chacontadorgeralinsert'];
+$nometabelaparapassar=$_POST['nometabelaparapassar'];
+$tipopessoa=$_POST['tipopessoa'];
+$cep=$_POST['cep'];
+$numerocolunastela=$_POST['numerocolunastela'];
+$campolista2=$_POST['campolista2'];
+$campolista1=$_POST['campolista1'];
+$rua5gravacorreio=$_POST['rua5gravacorreio'];
+$codigoproximoregitro=$_POST['codigoproximoregitro'];
+$numerojob=$_POST['numerojob'];
+$customergrava=$_POST['customergrava'];
+$load1=$_POST['load1'];
+$lengthcar=$_POST['lengthcar'];
+$widthcar=$_POST['widthcar'];
+$roadcar=$_POST['roadcar'];
+$airar=$_POST['airar'];
+$sprayercar=$_POST['sprayercar'];
+
+
+
+}
+else
+{
+
+$programa=$_GET['programa'];
+$escolha=$_GET['escolha'];
+$continuarmesmatela=$_POST['continuarmesmatela'];
+$chacontadorgeralinsert=$_GET['chacontadorgeralinsert'];
+$numerocolunastela=$_GET['numerocolunastela'];
+$codigoachou=$_GET['codigoachou'];
+$nomecolunaparapassar=$_GET['nomecolunaparapassar'];
+$nometabelaparapassar=$_GET['nometabelaparapassar'];
+$nomecolunaparapassaracao=$_GET['nomecolunaparapassaracao'];
+$chacontadorgeralupdate=$_GET['chacontadorgeralupdate'];
+$titulojanelainsert=$_GET['titulojanelainsert'];
+
+$seelctcampolista2=$_GET['seelctcampolista2'];
+$seelctcampolista1=$_GET['seelctcampolista1'];
+$campolista2=$_GET['campolista2'];
+$campolista1=$_GET['campolista1'];
+
+$codigoproximoregitro=$_GET['codigoproximoregitro'];
+
+}
+
+
+
+$tamanhojanela="janelagrande1";
+
+?>
+<div  style="display: block;" id="<?echo $tamanhojanela;?>">
+
+        <table  width="100%"  border="0" background-image="sairmensagem.png" >
+        <tr>
+        <td  align=right>Wiew Jobs
+        <a href="job.php?navegando=sim&escolha=1">
+        <IMG src="sairmensagem.png" width="38" height="38" ></a>
+        </td>
+        </tr>
+        </table>
+<?
+echo "SPRAY RECORDER DELIVERY DOCKET</br>";
+
+
+        $usu18ussm = "SELECT a.id_customer,a.nr_job,a.nr_sequencia,b.customer NOME,TO_CHAR(a.dt_job,'DD/MM/YYYY') DATA from job a,customer b
+		where a.nr_sequencia='$codigoachou' and
+		a.id_customer=b.id_customer";
+		
+        $resultussm = $conn->Execute($usu18ussm);
+        while ( !$resultussm->EOF) {
+         $sequencia=$resultussm->fields["2"];
+           
+		   echo "Job Nr.".$resultussm->fields["1"];
+		   echo "- Date:".$resultussm->fields["DATA"];
+		   echo "</BR>Customer:".$resultussm->fields["NOME"];
+
+         $resultussm->MoveNext();
+         }
+		 echo "<HR></BR>TYPE OF WORK";
+		 
+        $usu18ussm = "SELECT c.work NOME from job a,job_work b,work c
+		where a.nr_sequencia='$codigoachou' and
+		a.nr_job=b.nr_job and
+		a.id_customer=b.id_customer and
+		b.id_work=c.id_work";
+		
+        $resultussm = $conn->Execute($usu18ussm);
+        while ( !$resultussm->EOF) {
+         $workd=$resultussm->fields["0"];
+           
+		   
+		   echo "</BR>$workd";
+
+         $resultussm->MoveNext();
+         }
+
+		 echo "<HR></BR>SERVICES PERFORMED";
+         $usu18ussm = "SELECT c.service NOME,b.id_srs SRS from job a,job_service b,service c
+		where a.nr_sequencia='$codigoachou' and
+		a.nr_job=b.nr_job and
+		a.id_customer=b.id_customer and
+		b.id_service=c.id_service";
+		
+        $resultussm = $conn->Execute($usu18ussm);
+        while ( !$resultussm->EOF) {
+         $servicod=$resultussm->fields["0"];
+		 $srsd=$resultussm->fields["1"];
+           
+		   
+		   echo "</BR>$servicod ---> SRS:$srsd";
+
+         $resultussm->MoveNext();
+         }
+
+		 echo "<HR></BR>CHARACTERISTICS";
+		 
+		 
+		 
+		 $usu18ussmload= "SELECT distinct b.nr_load  LOADAC from job a,job_caracteristica b,caracteristica_spray c
+		where a.nr_sequencia='$codigoachou' and
+		a.nr_job=b.nr_job and
+		a.id_customer=b.id_customer and
+		b.id_caracteristica=c.id_caracteristica";
+		
+        $resultussmload = $conn->Execute($usu18ussmload);
+        while ( !$resultussmload->EOF) {
+         $loadachou=$resultussmload->fields["0"];
+		 echo "</BR></BR>LOAD:$loadachou";
+		 
+         $usu18ussm = "SELECT c.caracteristica NOME,b.VL_LENGTH,b.VL_WIDTH,b.VL_SQUARE_METRES,b.VL_ROAD,b.VL_AIR,b.VL_SPRAYER,c.id_caracteristica  from job a,job_caracteristica b,caracteristica_spray c
+		where a.nr_sequencia='$codigoachou' and
+		a.nr_job=b.nr_job and
+		a.id_customer=b.id_customer and
+		b.id_caracteristica=c.id_caracteristica and
+		b.nr_load='$loadachou'";
+		
+		
+        $resultussm = $conn->Execute($usu18ussm);
+        while ( !$resultussm->EOF) {
+         $caract1=$resultussm->fields["0"];
+		 $caract11=$resultussm->fields["1"];
+		 $caract12=$resultussm->fields["2"];
+		 $caract13=$resultussm->fields["3"];
+		 $caract14=$resultussm->fields["4"];
+		 $caract15=$resultussm->fields["5"];
+		 $caract16=$resultussm->fields["6"];
+		 $codcaract=$resultussm->fields["7"];
+		          
+		   
+		   echo "</BR></BR>$caract1";
+           if ($codcaract=="1"){
+            echo "(Celsius)";
+		    echo "</br>Road:".$caract14;
+			echo "</br>Air:".$caract15;
+			echo "</br>Sprayer:".$caract16;
+			
+		   
+		  
+		   }
+		   if ($codcaract=="2"){
+		    echo "</br>Length:".$caract11;
+			echo "</br>Width:".$caract12;
+			echo "</br>Square_Metres:".$caract13;
+		   
+		   
+		   }
+		   
+         $resultussm->MoveNext();
+         }
+        $resultussmload->MoveNext();
+        }
+
+
+?>
+</div>
+</form>
+
+

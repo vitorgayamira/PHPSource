@@ -1,0 +1,907 @@
+#content {
+    height: 150px;
+    width: 300px;
+}
+
+#resultado {
+    width: 900px;
+    height: 170px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+#primeiro {
+    position: absolute;
+
+    top: 170px;
+    left: 490px;
+    background-color: white;
+    width: 30%;
+    height: 36%;
+    border: 1px solid black;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    -moz-border-radius: 10px;
+    /* Firefox, etc */
+    -khtml-border-radius: 10px;
+    /* Konqueror, etc */
+    -webkit-border-radius: 10px;
+    /* Safari, Google Chrome, etc */
+    -opera-border-radius: 10px;
+
+}
+
+.botao {
+    width: 120px;
+    height: 24px;
+}
+
+#mostrapessoajuridica {
+    position: relative;
+    overflow: auto;
+    top: 80px;
+    left: 350px;
+    background: white url('fundodivabertura.png');
+    width: 940px;
+    height: 340px;
+    border: 1px solid black;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    -moz-border-radius: 10px;
+    /* Firefox, etc */
+    -khtml-border-radius: 10px;
+    /* Konqueror, etc */
+    -webkit-border-radius: 10px;
+    /* Safari, Google Chrome, etc */
+    -opera-border-radius: 10px;
+    z-index: 2;
+
+    -box-shadow: 5px 5px 8px #888;
+    -Moz-box-shadow: 5px 5px 8px #888;
+    -webkit-box-shadow: 5px 5px 8px #888;
+
+}
+
+#mostratelaabertura {
+    position: absolute;
+
+    top: 118px;
+    left: 12px;
+
+    margin: 0 auto;
+    text-align: left; /* "rem�dio" para o hack do IE */
+    overflow: auto;
+    background: white url('fundodivaberturamilenio.png');
+    width: 1300px;
+    height: 450px;
+    border: 1px solid black;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    -moz-border-radius: 10px;
+    /* Firefox, etc */
+    -khtml-border-radius: 10px;
+    /* Konqueror, etc */
+    -webkit-border-radius: 10px;
+    /* Safari, Google Chrome, etc */
+    -opera-border-radius: 10px;
+    z-index: 1;
+    -box-shadow: 5px 5px 8px #888;
+    -Moz-box-shadow: 5px 5px 8px #888;
+    -webkit-box-shadow: 5px 5px 8px #888;
+
+}
+
+#mostratelaabertura2juri {
+    position: absolute;
+    top: 120px;
+    left: 12px;
+    background: white url('fundodivabertura.png');
+    width: 1300px;
+    height: 480px;
+    border: 1px solid black;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    -moz-border-radius: 10px;
+    /* Firefox, etc */
+    -khtml-border-radius: 10px;
+    /* Konqueror, etc */
+    -webkit-border-radius: 10px;
+    /* Safari, Google Chrome, etc */
+    -opera-border-radius: 10px;
+    z-index: 1;
+
+    -box-shadow: 5px 5px 8px #888;
+    -Moz-box-shadow: 5px 5px 8px #888;
+    -webkit-box-shadow: 5px 5px 8px #888;
+
+}
+
+#mostraresutadojuridica {
+    position: absolute;
+    overflow: auto;
+    top: 110px;
+    left: 200px;
+    background-image: url('fundoeditardeletardiv.png');
+    width: 900px;
+    height: 330px;
+    border: 0 solid black;
+}
+
+table#alter tr td {
+    /* Toda a tabela com fundo creme */
+    background-image: url('apoiolinha.png');
+
+}
+
+table#alter tr.dif td {
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    FONT-FAMILY: verdana;
+    bold: Negrito;
+    background-image : url('apoiolinha.png');
+
+}
+
+table#grid tr.difa td {
+    font-size: 18px;
+    background-color: #A9A9A9;
+    color: black;
+    text-align: left;
+    FONT-FAMILY: verdana;
+    bold: Negrito '; border : 2 px;
+
+}
+
+table#grid tr.difr td {
+    font-size: 14px;
+    background-image: url('apoiolinha.png');
+    color: black;
+    text-align: left;
+    FONT-FAMILY: verdana;
+    bold: Negrito ';
+
+}
+
+.txtarea {
+    height: 23px;
+
+    -moz-border-radius: 0;
+    /* Firefox, etc */
+    -khtml-border-radius: 0;
+    /* Konqueror, etc */
+    -webkit-border-radius: 0;
+    /* Safari, Google Chrome, etc */
+
+    -box-shadow: 3px 3px 7px #888;
+    -Moz-box-shadow: 3px 3px 7px #888;
+    -webkit-box-shadow: 3px 3px 7px #888;
+
+    /*box-shadow: black 2px 2px 1px;
+    border-color:black; */
+
+    background-color: white;
+    font: 13px georgia, sans-serif;
+    color: black;
+
+}
+
+#mostraexclusao {
+    position: absolute;
+    overflow: auto;
+    top: 170px;
+    left: 400px;
+    background: white url('fundoeditardeletardiv2.png');
+    width: 390px;
+    height: 143px;
+    border: 1px solid black;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    -moz-border-radius: 10px;
+    /* Firefox, etc */
+    -khtml-border-radius: 10px;
+    /* Konqueror, etc */
+    -webkit-border-radius: 10px;
+    /* Safari, Google Chrome, etc */
+    -opera-border-radius: 10px;
+    -box-shadow: 5px 5px 8px #888;
+    -Moz-box-shadow: 5px 5px 8px #888;
+    -webkit-box-shadow: 5px 5px 8px #888;
+
+    z-index: 2;
+
+}
+
+.tituloCaixa {
+    width:100%;
+    text-align: center;"
+}
+
+#janelagrandeconsumo {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.cabecalhoTabela{
+    width: 80%;
+    font-size:14px;
+    margin-left: 10%;
+}
+
+.mostraCaixa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: auto;
+    background-color: rgba(172, 172, 172, 0.75);
+    width-image: 100%;
+    width: 465px;
+    height: 240px;
+    margin-left: -232.5px;
+    margin-top: -100px;
+    -moz-border-radius: 10px;
+    text-transform: uppercase;
+    /* Firefox, etc */
+    -khtml-border-radius: 10px;
+    /* Konqueror, etc */
+    -webkit-border-radius: 10px;
+    /* Safari, Google Chrome, etc */
+    -opera-border-radius: 10px;
+    z-index: 2;
+    -box-shadow: 5px 5px 38px #888;
+    -Moz-box-shadow: 5px 5px 38px #888;
+    font-size: 12px;
+    text-align: right;
+}
+
+.letraCaixa {
+    font-size: 12px;
+    text-align: right;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.letraCaixa tbody > tr > td:first-child {
+    width: 25%;
+}
+
+.letraCaixa tbody > tr > td:last-child {
+    width: 75%;
+}
+
+.letraCaixa > tbody > tr > td:last-child > input[type="date"] {
+    width: 49.25%;
+}
+
+.myinputstyle {
+    width: 70%;
+    float:left;
+}
+
+.divTabela1 {
+    overflow-y: scroll;
+    height: 60%;
+
+}
+
+#btn_login {
+    margin-top: 20px;
+    margin-right: 200px;
+}
+
+#divBotoes {
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
+    float: left;
+    position: absolute;
+}
+
+.botaoVermelho {
+    height: 30px;
+    width: 80px;
+    position: relative;
+    background-color: #DB0E20; /* Vermelho */
+    color: #fff;
+    border: 0;
+    font-size: 11px;
+}
+
+#area_superior {
+    position: absolute;
+    margin-top: -60px;
+    right: 50px;
+}
+
+.textoBranco {
+    font-size: 12px;
+    color: #fff;
+}
+
+.botaoMenuSuperior {
+    background-color: #ABACAE; /* CINZA */
+    color: #000;
+    font-size: 11px;
+    text-decoration: none;
+
+}
+
+#cssmenu ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #A0A0A0;
+    line-height: 80%;
+    font: normal .8em/1.5em verdana, verdana, verdana;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+}
+
+#cssmenu li {
+    margin: 0 5px;
+    padding: 0 0 8px;
+    float: left;
+    position: relative;
+    list-style: none;
+}
+
+#cssmenu a,
+#cssmenu a:link {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 8px 20px;
+    margin: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+#cssmenu a:hover {
+    background: #000;
+    color: #fff;
+}
+
+#cssmenu .active a,
+#cssmenu li:hover > a {
+    background: white repeat-x 0 -40px;
+    color: #444;
+    border-top: solid 1px #f8f8f8;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+#cssmenu ul ul li:hover a,
+#cssmenu li:hover li a {
+    background: none;
+    border: none;
+    color: #666;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+#cssmenu ul ul a:hover {
+    background: #8f8f8f repeat-x 0 -100px !important;
+    color: #fff !important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}
+
+#cssmenu li:hover > ul {
+    display: block;
+}
+
+#cssmenu ul ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 185px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: #ddd repeat-x 0 0;
+    border: solid 1px #b4b4b4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+}
+
+#cssmenu ul ul li {
+    float: none;
+    margin: 0;
+    padding: 3px;
+}
+
+#cssmenu ul ul a {
+    font-weight: normal;
+    text-shadow: 0 1px 0 #fff;
+}
+
+#cssmenu ul:after {
+    content: '.';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+* html #cssmenu ul {
+    height: 1%;
+}
+
+#icones {
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+#icones > a {
+    text-decoration: none;
+}
+
+#icones > a > img {
+    height: 30px;
+    width: 30px;
+    margin-left: 35px;
+    margin-right: 15px;
+
+}
+
+.texto_icone {
+    height: 40px;
+    width: 90px;
+    font-size: 11px;
+    float: left;
+    text-align: center;
+}
+
+#mostrafaleconosco {
+    position: relative;
+
+    top: 80px;
+    left: 150px;
+    overflow: auto;
+
+    background-image: url('fundofale.png');
+
+    width-image: 100%;
+
+    width: 520px;
+    height: 530px;
+    border: 1px solid black;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    -moz-border-radius: 10px;
+    /* Firefox, etc */
+    -khtml-border-radius: 10px;
+    /* Konqueror, etc */
+    -webkit-border-radius: 10px;
+    /* Safari, Google Chrome, etc */
+    -opera-border-radius: 10px;
+    z-index: 2;
+
+    -box-shadow: 5px 5px 38px #888;
+    -Moz-box-shadow: 5px 5px 38px #888;
+    -webkit-box-shadow: 5px 5px 38px #888;
+
+}
+
+#mostraeditarcandidatousaurio {
+    position: absolute;
+    overflow: auto;
+    top: 90px;
+    left: 400px;
+    background: white;
+    width: 750px;
+    height: 490px;
+    border: 1px solid black;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    -moz-border-radius: 10px;
+    /* Firefox, etc */
+    -khtml-border-radius: 10px;
+    /* Konqueror, etc */
+    -webkit-border-radius: 10px;
+    /* Safari, Google Chrome, etc */
+    -opera-border-radius: 10px;
+    -box-shadow: 5px 5px 8px #888;
+    -Moz-box-shadow: 5px 5px 8px #888;
+    -webkit-box-shadow: 5px 5px 8px #888;
+
+    z-index: 2;
+
+}
+
+.titulogeral {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    font-family: verdana;
+    bold: Negrito;
+    margin-top: 30px;
+    width: 80%;
+    margin-left:10%;
+}
+
+table.bordasimples tr td {
+    border: 1px solid black;
+}
+
+#nav ul {
+
+    position: relative;
+
+    z-index: -1;
+
+}
+
+#nav li {
+
+    position: relative;
+
+    z-index: 100;
+
+}
+
+#nav ul li {
+
+    margin-top: -23px;
+
+    -moz-transition: 0.4s linear 0.4s;
+
+    -ms-transition: 0.4s linear 0.4s;
+
+    -o-transition: 0.4s linear 0.4s;
+
+    -webkit-transition: 0.4s linear 0.4s;
+
+    transition: 0.4s linear 0.4s;
+
+}
+
+#nav li a {
+
+    background-color: #d4d5d8;
+
+    color: #000;
+
+    display: block;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    line-height: 28px;
+
+    outline: 0;
+
+    padding-left: 15px;
+
+    text-decoration: none;
+
+}
+
+
+#nav li a + img {
+
+    cursor: pointer;
+
+    display: none;
+
+    height: 30px;
+
+    left: 0;
+
+    position: absolute;
+
+    top: 0;
+
+    width: 200px;
+
+}
+
+#nav li a img {
+
+    border-width: 0;
+
+    height: 34px;
+
+    line-height: 28px;
+
+    margin-right: 8px;
+
+    vertical-align: middle;
+
+    width: 24px;
+
+}
+
+#nav li a:hover {
+
+    background-color: #bcbdc1;
+
+}
+
+#nav ul li a {
+
+    background-color: #eee;
+
+    border-bottom: 1px solid #ccc;
+
+    color: #000;
+
+    font-size: 10px;
+
+    line-height: 22px;
+
+}
+
+#nav ul li a:hover {
+
+    background-color: #ddd;
+
+    color: #444;
+
+}
+
+#nav ul li a img {
+    border-width: 0;
+    height: 16px;
+    line-height: 22px;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 16px;
+}
+
+#nav a.sub:focus {
+    background: #bcbdc1;
+    outline: 0;
+}
+
+#nav a:focus ~ ul li {
+
+    margin-top: 0;
+
+    -moz-transition: 0.4s linear;
+
+    -ms-transition: 0.4s linear;
+
+    -o-transition: 0.4s linears;
+
+    -webkit-transition: 0.4s linears;
+
+    transition: 0.4s linear;
+
+}
+
+#nav a:focus + img, #nav a:active + img {
+
+    display: block;
+
+}
+
+#nav a.sub:active {
+
+    background: #bcbdc1;
+
+    outline: 0;
+
+}
+
+#nav a:active ~ ul li {
+
+    margin-top: 0;
+
+}
+
+#nav ul:hover li {
+
+    margin-top: 0;
+
+}
+
+#mostrasuperiortitulo {
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    overflow: auto;
+    width: 70%;
+    height: 250px;
+    z-index: 2;
+
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 17px;
+    color: black;
+    text-align: left;
+    FONT-FAMILY: verdana;
+    background: #F2F2F2 no-repeat center center;
+    bold: Negrito '
+}
+
+#cabecalho {
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #DC0E20;
+}
+
+#logo_maximiza {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#header {
+    height: 290px;
+    background-color: white;
+    margin-top: 90px;
+}
+
+.novoLogin{
+    left: 10%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 80%;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background-color: white;
+}
+
+input[type="text"] , input[type="date"]  {
+     font-size: 15px;
+     float:left;
+     width: 100%;
+ }
+
+select {
+    border: 1px solid #6073a5;
+    font-size: 12px;
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    width: 100%;
+    position: relative;
+}
+
+#telaresultadomaquina {
+    width: 98%;
+    height: 55%;
+    margin-left: 1%;
+    overflow: scroll;
+}
+.MsoTableGrid {
+    background:#DCE5EC;
+    border-collapse:collapse;
+    border:none;
+    mso-border-alt:solid windowtext .5pt;
+    mso-yfti-tbllook:480;
+    mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+    mso-border-insideh:.5pt solid windowtext;
+    mso-border-insidev:.5pt solid windowtext;
+    width: 100%;
+}
+
+#mostramensagem1 {
+    position: absolute;
+    overflow: auto;
+    top: 10px;
+    left: 800px;
+    background: white url('fundomensagem.png');
+    width: 590px;
+    height: 370px;
+    border: 1px solid black;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    -moz-border-radius: 10px;
+    /* Firefox, etc */
+    -khtml-border-radius: 10px;
+    /* Konqueror, etc */
+    -webkit-border-radius: 10px;
+    /* Safari, Google Chrome, etc */
+    -opera-border-radius: 10px;
+    -box-shadow: 5px 5px 8px #888;
+    -Moz-box-shadow: 5px 5px 8px #888;
+    -webkit-box-shadow: 5px 5px 8px #888;
+
+    z-index: 2;
+
+}
+
+th , .linkTabela {
+    FONT-SIZE: 13px;
+    BACKGROUND-COLOR: #ABACAE;
+    COLOR: #000;
+    FONT-FAMILY: verdana, arial, helvetica;
+    PADDING: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none ;
+}
+
+.camposAssociacao {
+    width:300px;
+    left:50%;
+    margin-left: -150px;
+    position: absolute;
+}
+
+#mostrasuperiortitulo2 {
+    position: absolute;
+
+    top: 4px;
+    left: 0;
+    overflow: auto;
+    width: 70%;
+    height: 150px;
+    z-index: 2;
+
+}
+
+#janelagrande1acesso {
+    position: absolute;
+    overflow: auto;
+    top: 10px;
+    left: 20px;
+    background: white url('');
+    width: 810px;
+    height: 710px;
+    border: 1px solid black;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    -moz-border-radius: 10px;
+    /* Firefox, etc */
+    -khtml-border-radius: 10px;
+    /* Konqueror, etc */
+    -webkit-border-radius: 10px;
+    /* Safari, Google Chrome, etc */
+    -opera-border-radius: 10px;
+    -box-shadow: 5px 5px 8px #888;
+    -Moz-box-shadow: 5px 5px 8px #888;
+    -webkit-box-shadow: 5px 5px 8px #888;
+
+    z-index: 2;
+
+}
+
+.tabela1 {
+    margin-top: 10px;
+    width: 98%;
+    margin-left: 1%;
+}
+
+.tabela2 {
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.tabelaLinha1 {
+    font-size: 12px;
+    background-color: #ccc;
+}
+
+.tabelaLinha2 {
+    font-size: 12px;
+    background-color: #fff;
+}

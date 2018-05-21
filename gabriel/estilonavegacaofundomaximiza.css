@@ -1,0 +1,96 @@
+<style type="text/css">
+
+
+
+ div.mostrapaginacao{
+position: absolute;
+left: 5 px; /*posição à direita*/
+top: 35 px; /*posição abaixo*/
+
+	width:200;
+	height:30px;
+ border: 0px solid black;
+
+
+ }
+hr {
+      color: black;
+      background-color: black;
+      height: 2px;
+      width:100%;
+    }
+    
+    div.mostrafiltro{
+position: absolute;
+left: 65 px; /*posição à direita*/
+top: 95 px; /*posição abaixo*/
+
+	width:200;
+	height:59px;
+ border: 1px solid black;
+
+
+ }
+ 
+ 
+
+
+
+td {font-weight: bold;font-size: 9px;color: black;}
+input{font-weight: bold;font-size: 9px;color: black;}
+
+
+#mostratitulo{
+position: absolute;
+top: 12 px; /*posição abaixo*/
+left: 15 px;
+    background: #FFFFFF; /* browsers sem suporte a css3 */
+    background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), to(<?echo $cortopo;?>));/* webkit browsers */
+    background: -moz-linear-gradient(left, <?echo $cortopo;?>, #FFFFFF);/* firefox3.6+ */
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='<?echo $cortopo;?>', EndColorStr=' #FFFFFF');/* IE */
+	height:48px;
+	width:100%;
+    border: 0px solid black;
+ }
+
+
+ #mostra{
+position: absolute;
+top: 44 px; /*posição abaixo*/
+left: 45 px;
+
+    background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), to(<?echo $cortopo;?>));/* webkit browsers */
+    height:48px;
+	width:100%;
+    border: 0px ;
+ }
+ 
+  #mostra55{
+position: absolute;
+top: 374 px; /*posição abaixo*/
+left: 0 px;
+
+    background: white;
+    height:248px;
+	width:100%;
+    border: 0px ;
+ }
+
+
+
+body {background: #FFFFFF; /* browsers sem suporte a css3 */}
+
+body {background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), to(<?echo $corfundo;?>));/* webkit browsers */ }
+
+body {background: -moz-linear-gradient(left, <?echo $corfundo;?>, #FFFFFF);/* firefox3.6+ */}
+
+body { filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='<?echo $corfundo;?>', EndColorStr= white);/* IE */
+
+
+}
+
+ 
+ 
+
+</style>
+

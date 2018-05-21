@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+    <option name="ANALYSIS_IN_BACKGROUND" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ae4bdd9-7c8d-47d4-bb67-7c20e7b3be22" name="Default" comment="" />
+    <ignored path="gabriel.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="gabriel" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CONSULTAplanomessemanaV2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CONSULTAplanomessemanaV2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.13863216">
+              <caret line="325" column="18" selection-start-line="325" selection-start-column="18" selection-end-line="325" selection-end-column="18" />
+              <folding>
+                <element signature="e#14183#15143#0#PHP" expanded="false" />
+                <element signature="e#15169#16169#0#PHP" expanded="false" />
+                <element signature="e#16800#17947#0#PHP" expanded="false" />
+                <marker date="1442331796051" expanded="true" signature="6461:6845" placeholder="SELECT a.nr_..aux_semana..." />
+                <marker date="1442331796051" expanded="true" signature="6769:6844" placeholder="select MIN(N..aux_semana..." />
+                <marker date="1442331796051" expanded="true" signature="7402:7534" placeholder="SELECT NR_DI..aux_semana..." />
+                <marker date="1442331796051" expanded="true" signature="7965:8090" placeholder="SELECT MIN(N..aux_semana..." />
+                <marker date="1442331796051" expanded="true" signature="8440:8565" placeholder="SELECT NR_DI..aux_semana..." />
+                <marker date="1442331796051" expanded="true" signature="8919:9058" placeholder="SELECT NR_DI..aux_semana..." />
+                <marker date="1442331796051" expanded="true" signature="9498:9634" placeholder="SELECT NR_DI..aux_semana..." />
+                <marker date="1442331796051" expanded="true" signature="12349:13246" placeholder="SELECT DISTI..ROT_COMPO..." />
+                <marker date="1442331796051" expanded="true" signature="12349:14126" placeholder="SELECT DISTI..." />
+                <marker date="1442331796051" expanded="true" signature="13116:13188" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331796051" expanded="true" signature="13267:14083" placeholder="SELECT DISTI..EMER_COMP..." />
+                <marker date="1442331796051" expanded="true" signature="13953:14025" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331796051" expanded="true" signature="14254:15113" placeholder="SELECT DISTI..EMER_COMP..." />
+                <marker date="1442331796051" expanded="true" signature="14940:15012" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331796051" expanded="true" signature="15241:16137" placeholder="SELECT DISTI..ROT_COMPO..." />
+                <marker date="1442331796051" expanded="true" signature="16007:16079" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331796051" expanded="true" signature="17185:17253" placeholder="SELECT DS_CO..COMPONENTE_AUXILIAR..." />
+                <marker date="1442331796051" expanded="true" signature="18717:19512" placeholder="SELECT count..ROT_COMPO..." />
+                <marker date="1442331796051" expanded="true" signature="18717:20257" placeholder="SELECT count..." />
+                <marker date="1442331796051" expanded="true" signature="19439:19511" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331796051" expanded="true" signature="19533:20257" placeholder="SELECT COUNT..EMER_COMP..." />
+                <marker date="1442331796051" expanded="true" signature="20095:20167" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331796051" expanded="true" signature="20905:21991" placeholder="SELECT to_ch..ROT_COMPO..." />
+                <marker date="1442331796051" expanded="true" signature="20905:23020" placeholder="SELECT to_ch..." />
+                <marker date="1442331796051" expanded="true" signature="21918:21990" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331796051" expanded="true" signature="22012:23020" placeholder="SELECT to_ch..EMER_COMP..." />
+                <marker date="1442331796051" expanded="true" signature="22947:23019" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331796051" expanded="true" signature="26311:27071" placeholder="SELECT count..ROT_COMPO..." />
+                <marker date="1442331796051" expanded="true" signature="26311:27790" placeholder="SELECT count..." />
+                <marker date="1442331796051" expanded="true" signature="27092:27790" placeholder="SELECT COUNT..EMER_COMP..." />
+                <marker date="1442331796051" expanded="true" signature="36033:36862" placeholder="SELECT DISTI..ROT_COMPO..." />
+                <marker date="1442331796051" expanded="true" signature="36033:37679" placeholder="SELECT DISTI..." />
+                <marker date="1442331796051" expanded="true" signature="36883:37557" placeholder="SELECT DISTI..EMER_COMP..." />
+                <marker date="1442331796051" expanded="true" signature="37795:38590" placeholder="SELECT DISTI..EMER_COMP..." />
+                <marker date="1442331796051" expanded="true" signature="38706:39538" placeholder="SELECT DISTI..ROT_COMPO..." />
+                <marker date="1442331796051" expanded="true" signature="40440:40508" placeholder="SELECT DS_CO..COMPONENTE_AUXILIAR..." />
+                <marker date="1442331796051" expanded="true" signature="41921:42670" placeholder="SELECT count..ROT_COMPO..." />
+                <marker date="1442331796051" expanded="true" signature="41921:43372" placeholder="SELECT count..." />
+                <marker date="1442331796051" expanded="true" signature="42691:43372" placeholder="SELECT COUNT..EMER_COMP..." />
+                <marker date="1442331796051" expanded="true" signature="43982:45016" placeholder="SELECT to_ch..ROT_COMPO..." />
+                <marker date="1442331796051" expanded="true" signature="43982:45987" placeholder="SELECT to_ch..." />
+                <marker date="1442331796051" expanded="true" signature="45037:45987" placeholder="SELECT to_ch..EMER_COMP..." />
+                <marker date="1442331796051" expanded="true" signature="49261:50029" placeholder="SELECT count..ROT_COMPO..." />
+                <marker date="1442331796051" expanded="true" signature="49261:50763" placeholder="SELECT count..." />
+                <marker date="1442331796051" expanded="true" signature="50050:50763" placeholder="SELECT COUNT..EMER_COMP..." />
+                <marker date="1442331796051" expanded="true" signature="55473:56222" placeholder="SELECT count..ROT_COMPO..." />
+                <marker date="1442331796051" expanded="true" signature="55473:56924" placeholder="SELECT count..." />
+                <marker date="1442331796051" expanded="true" signature="56243:56924" placeholder="SELECT COUNT..EMER_COMP..." />
+                <marker date="1442331796051" expanded="true" signature="57600:58634" placeholder="SELECT to_ch..ROT_COMPO..." />
+                <marker date="1442331796051" expanded="true" signature="57600:59610" placeholder="SELECT to_ch..." />
+                <marker date="1442331796051" expanded="true" signature="58655:59610" placeholder="SELECT to_ch..EMER_COMP..." />
+                <marker date="1442331796051" expanded="true" signature="63083:63873" placeholder="SELECT count..ROT_COMPO..." />
+                <marker date="1442331796051" expanded="true" signature="63083:64624" placeholder="SELECT count..." />
+                <marker date="1442331796051" expanded="true" signature="63894:64624" placeholder="SELECT COUNT..EMER_COMP..." />
+                <marker date="1442331796051" expanded="true" signature="69423:69496" placeholder="select ds_at..atividades..." />
+                <marker date="1442331796051" expanded="true" signature="69704:70105" placeholder="select disti..atividades..." />
+                <marker date="1442331796051" expanded="true" signature="71268:71756" placeholder="select disti..atividades..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CONSULTAplanomesV2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CONSULTAplanomesV2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.0655737">
+              <caret line="188" column="17" selection-start-line="188" selection-start-column="17" selection-end-line="188" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#div#4;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1442331671662" expanded="true" signature="7304:8276" placeholder="SELECT DISTI..ROT_COMPO..." />
+                <marker date="1442331671662" expanded="true" signature="7304:9234" placeholder="SELECT DISTI..." />
+                <marker date="1442331671662" expanded="true" signature="8142:8214" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="8305:9187" placeholder="SELECT DISTI..EMER_COMP..." />
+                <marker date="1442331671662" expanded="true" signature="9053:9125" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="9347:10276" placeholder="SELECT DISTI..EMER_COMP..." />
+                <marker date="1442331671662" expanded="true" signature="10095:10167" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="10392:11363" placeholder="SELECT DISTI..ROT_COMPO..." />
+                <marker date="1442331671662" expanded="true" signature="11229:11301" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="13221:14100" placeholder="SELECT count..ROT_COMPO..." />
+                <marker date="1442331671662" expanded="true" signature="13221:14936" placeholder="SELECT count..." />
+                <marker date="1442331671662" expanded="true" signature="14129:14936" placeholder="SELECT COUNT..EMER_COMP..." />
+                <marker date="1442331671662" expanded="true" signature="15475:16660" placeholder="SELECT to_ch..ROT_COMPO..." />
+                <marker date="1442331671662" expanded="true" signature="15475:17787" placeholder="SELECT to_ch..." />
+                <marker date="1442331671662" expanded="true" signature="16689:17787" placeholder="SELECT to_ch..EMER_COMP..." />
+                <marker date="1442331671662" expanded="true" signature="20679:21582" placeholder="SELECT count..ROT_COMPO..." />
+                <marker date="1442331671662" expanded="true" signature="20679:22459" placeholder="SELECT count..." />
+                <marker date="1442331671662" expanded="true" signature="21611:22459" placeholder="SELECT COUNT..EMER_COMP..." />
+                <marker date="1442331671662" expanded="true" signature="26274:26347" placeholder="select ds_at..atividades..." />
+                <marker date="1442331671662" expanded="true" signature="26531:26932" placeholder="select disti..atividades..." />
+                <marker date="1442331671662" expanded="true" signature="27927:28415" placeholder="select disti..atividades..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="consultapcmanual.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consultapcmanual.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.6792455">
+              <caret line="167" column="7" selection-start-line="167" selection-start-column="7" selection-end-line="167" selection-end-column="32" />
+              <folding>
+                <marker date="1442331671662" expanded="true" signature="7531:7670" placeholder="SELECT count..UNID_MAQ..." />
+                <marker date="1442331671662" expanded="true" signature="8068:9598" placeholder="SELECT DISTI..ROT_COMPO..." />
+                <marker date="1442331671662" expanded="true" signature="8068:10865" placeholder="SELECT DISTI..." />
+                <marker date="1442331671662" expanded="true" signature="8922:8994" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="9047:9230" placeholder="select cd_un..UNID_MAQ..." />
+                <marker date="1442331671662" expanded="true" signature="9102:9174" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="9282:9465" placeholder="select cd_ma..UNID_MAQ..." />
+                <marker date="1442331671662" expanded="true" signature="9336:9408" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="9525:9597" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="9627:10818" placeholder="SELECT DISTI..EMER_COMP..." />
+                <marker date="1442331671662" expanded="true" signature="10319:10503" placeholder="select cd_un..UNID_MAQ..." />
+                <marker date="1442331671662" expanded="true" signature="10374:10446" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="10555:10738" placeholder="select cd_ma..UNID_MAQ..." />
+                <marker date="1442331671662" expanded="true" signature="10609:10681" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="10979:12311" placeholder="SELECT DISTI..EMER_COMP..." />
+                <marker date="1442331671662" expanded="true" signature="11642:11714" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="11767:11950" placeholder="select cd_un..UNID_MAQ..." />
+                <marker date="1442331671662" expanded="true" signature="11821:11893" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="12002:12184" placeholder="select cd_ma..UNID_MAQ..." />
+                <marker date="1442331671662" expanded="true" signature="12055:12127" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="12427:13904" placeholder="SELECT DISTI..ROT_COMPO..." />
+                <marker date="1442331671662" expanded="true" signature="13282:13354" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="13407:13590" placeholder="select cd_un..UNID_MAQ..." />
+                <marker date="1442331671662" expanded="true" signature="13461:13533" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="13642:13824" placeholder="select cd_ma..UNID_MAQ..." />
+                <marker date="1442331671662" expanded="true" signature="13695:13767" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="14118:15159" placeholder="SELECT DISTI..ROT_COMPO..." />
+                <marker date="1442331671662" expanded="true" signature="14118:16062" placeholder="SELECT DISTI..." />
+                <marker date="1442331671662" expanded="true" signature="14972:15044" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="15188:16015" placeholder="SELECT DISTI..EMER_COMP..." />
+                <marker date="1442331671662" expanded="true" signature="15827:15899" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="16176:17073" placeholder="SELECT DISTI..EMER_COMP..." />
+                <marker date="1442331671662" expanded="true" signature="16839:16911" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="17188:18230" placeholder="SELECT DISTI..ROT_COMPO..." />
+                <marker date="1442331671662" expanded="true" signature="18043:18115" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="21320:22482" placeholder="SELECT DISTI..ROT_COMPO..." />
+                <marker date="1442331671662" expanded="true" signature="21320:23563" placeholder="SELECT DISTI..." />
+                <marker date="1442331671662" expanded="true" signature="22409:22481" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="22511:23563" placeholder="SELECT DISTI..EMER_COMP..." />
+                <marker date="1442331671662" expanded="true" signature="23389:23461" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="24656:26024" placeholder="SELECT count..ROT_COMPO..." />
+                <marker date="1442331671662" expanded="true" signature="25951:26023" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="26441:27590" placeholder="SELECT count..EMER_COMP..." />
+                <marker date="1442331671662" expanded="true" signature="27357:27429" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+                <marker date="1442331671662" expanded="true" signature="29025:29098" placeholder="select ds_at..atividades..." />
+                <marker date="1442331671662" expanded="true" signature="29269:29670" placeholder="select disti..atividades..." />
+                <marker date="1442331671662" expanded="true" signature="30582:31070" placeholder="select disti..atividades..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classepesquisanova.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classepesquisanova.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.4339623">
+              <caret line="331" column="16" selection-start-line="331" selection-start-column="16" selection-end-line="331" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <marker date="1442331427273" expanded="true" signature="1017:1080" placeholder="delete from ..." />
+                <marker date="1442331427273" expanded="true" signature="1169:1322" placeholder="select cd_fa..usuario_fabrica..." />
+                <marker date="1442331427273" expanded="true" signature="1229:1321" placeholder="select cd_us..usuario_bi..." />
+                <marker date="1442331427273" expanded="true" signature="1508:1624" placeholder="insert into ..." />
+                <marker date="1442331427273" expanded="true" signature="1780:1843" placeholder="delete from ..." />
+                <marker date="1442331427273" expanded="true" signature="1936:2048" placeholder="insert into ..." />
+                <marker date="1442331427273" expanded="true" signature="2412:2481" placeholder="SELECT DS_FA..FABRICAS..." />
+                <marker date="1442331427273" expanded="true" signature="2992:3233" placeholder="SELECT CD_FA..FABRICAS..." />
+                <marker date="1442331427273" expanded="true" signature="3077:3223" placeholder="select cd_fa..usuario_fabrica..." />
+                <marker date="1442331427273" expanded="true" signature="3137:3222" placeholder="select cd_us..usuario_bi..." />
+                <marker date="1442331427273" expanded="true" signature="4384:4462" placeholder="SELECT DS_CO..COMPONENTE_AUXILIAR..." />
+                <marker date="1442331427273" expanded="true" signature="4986:5723" placeholder="SELECT DISTI..ROT_COMPO..." />
+                <marker date="1442331427273" expanded="true" signature="4986:6366" placeholder="SELECT DISTI..." />
+                <marker date="1442331427273" expanded="true" signature="5762:6366" placeholder="SELECT DISTI..EMER_COMP..." />
+                <marker date="1442331427273" expanded="true" signature="7594:7660" placeholder="SELECT DS_FA..FAMILIAS..." />
+                <marker date="1442331427273" expanded="true" signature="8165:8798" placeholder="SELECT DISTI..ROT_COMPO..." />
+                <marker date="1442331427273" expanded="true" signature="8165:9363" placeholder="SELECT DISTI..." />
+                <marker date="1442331427273" expanded="true" signature="8819:9363" placeholder="SELECT DISTI..EMER_COMP..." />
+                <marker date="1442331427273" expanded="true" signature="10135:10930" placeholder="SELECT DISTI..ROT_COMPO..." />
+                <marker date="1442331427273" expanded="true" signature="11627:11737" placeholder="SELECT DISTI..COMPONENTE_AUXILIAR..." />
+                <marker date="1442331427273" expanded="true" signature="13488:13764" placeholder="SELECT min(a..aux_semana..." />
+                <marker date="1442331427273" expanded="true" signature="14459:14690" placeholder="SELECT disti..aux_semana..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="estilo.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/estilo.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.259259">
+              <caret line="789" column="16" selection-start-line="789" selection-start-column="16" selection-end-line="789" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/carregamenumilenionovo.php" />
+        <option value="$PROJECT_DIR$/carregamenumilenionovo2.php" />
+        <option value="$PROJECT_DIR$/situacaoplanejamentov2.php" />
+        <option value="$PROJECT_DIR$/classegraficomaximiza1.php" />
+        <option value="$PROJECT_DIR$/classegraficomaximiza2.php" />
+        <option value="$PROJECT_DIR$/CUSTOPADRAO2.php" />
+        <option value="$PROJECT_DIR$/manipulasql.class_oraclenovo.php" />
+        <option value="$PROJECT_DIR$/cidadesadege.php" />
+        <option value="$PROJECT_DIR$/mudasenhamaximiza.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/conexaoadodb_oracle.php" />
+        <option value="$PROJECT_DIR$/FUNCAO.php" />
+        <option value="$PROJECT_DIR$/estilo2_sitenovo_maximiza.css" />
+        <option value="$PROJECT_DIR$/privilegiofuncao.php" />
+        <option value="$PROJECT_DIR$/classeassociadotabelas.php" />
+        <option value="$PROJECT_DIR$/V4_PESSOAFISICA.php" />
+        <option value="$PROJECT_DIR$/classeupdate.php" />
+        <option value="$PROJECT_DIR$/classeinsert.php" />
+        <option value="$PROJECT_DIR$/eliminausuario.php" />
+        <option value="$PROJECT_DIR$/INCLUIRUSUARIO.php" />
+        <option value="$PROJECT_DIR$/INCLUIRUSUARIO2.php" />
+        <option value="$PROJECT_DIR$/GRUPOUSUARIO.php" />
+        <option value="$PROJECT_DIR$/ELIMINARFUNCAOGRUPO.php" />
+        <option value="$PROJECT_DIR$/eliminafinalfuncaogrupo.php" />
+        <option value="$PROJECT_DIR$/USUARIONOGRUPO.php" />
+        <option value="$PROJECT_DIR$/eliminafinalusuariogrupo.php" />
+        <option value="$PROJECT_DIR$/rodapepagina.php" />
+        <option value="$PROJECT_DIR$/classepesquisanova2.php" />
+        <option value="$PROJECT_DIR$/classeeliminanaojob.php" />
+        <option value="$PROJECT_DIR$/exclusaoordens.php" />
+        <option value="$PROJECT_DIR$/barraacao.php" />
+        <option value="$PROJECT_DIR$/classepesquisa.php" />
+        <option value="$PROJECT_DIR$/baixamanutencao_versao5.php" />
+        <option value="$PROJECT_DIR$/customer.php" />
+        <option value="$PROJECT_DIR$/consultaordensv6.php" />
+        <option value="$PROJECT_DIR$/painelcorretivateste_view_kyly2.php" />
+        <option value="$PROJECT_DIR$/painelcorretivashopping.php" />
+        <option value="$PROJECT_DIR$/painelsemana2.php" />
+        <option value="$PROJECT_DIR$/painelsemana1.php" />
+        <option value="$PROJECT_DIR$/CUSTOPADRAO3.php" />
+        <option value="$PROJECT_DIR$/ordempdf.php" />
+        <option value="$PROJECT_DIR$/consultacustoatividade.php" />
+        <option value="$PROJECT_DIR$/listaacessousuario.php" />
+        <option value="$PROJECT_DIR$/classeelimina.php" />
+        <option value="$PROJECT_DIR$/consultaequipamentov10.php" />
+        <option value="$PROJECT_DIR$/consultamtbf.php" />
+        <option value="$PROJECT_DIR$/estilo.css" />
+        <option value="$PROJECT_DIR$/classepesquisanova.php" />
+        <option value="$PROJECT_DIR$/consultapcmanual.php" />
+        <option value="$PROJECT_DIR$/CONSULTAplanomesV2.php" />
+        <option value="$PROJECT_DIR$/CONSULTAplanomessemanaV2.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1288" />
+    <option name="height" value="764" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>HTML</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gabriel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gabriel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gabriel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Apache24\htdocs\gabriel" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ae4bdd9-7c8d-47d4-bb67-7c20e7b3be22" name="Default" comment="" />
+      <created>1437666624815</created>
+      <option name="number" value="Default" />
+      <updated>1437666624815</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1288" height="764" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22374798" sideWeight="0.49476832" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24453124" sideWeight="0.5052317" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3951613" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/consultacustoatividade.php</url>
+          <line>769</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/consultamtbf.php</url>
+          <line>80</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/situacaoplanejamentov2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3962264">
+          <caret line="241" column="12" selection-start-line="241" selection-start-column="12" selection-end-line="241" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classegraficomaximiza2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.037736">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="59" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOPADRAO2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-57.884617">
+          <caret line="443" column="55" selection-start-line="443" selection-start-column="55" selection-end-line="443" selection-end-column="55" />
+          <folding>
+            <element signature="e#2390#4657#0#PHP" expanded="false" />
+            <element signature="e#4666#11014#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mudasenhamaximiza.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36783734">
+          <caret line="123" column="30" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cidadesadege.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="11.924528">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/privilegiofuncao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.557377">
+          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carregamenumilenionovo2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7311828">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginacao_mi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FUNCAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3962264">
+          <caret line="110" column="8" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classeassociadotabelas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14417745">
+          <caret line="203" column="12" selection-start-line="203" selection-start-column="12" selection-end-line="203" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classegraficomaximiza1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029929578">
+          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classeinsert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36414048">
+          <caret line="293" column="118" selection-start-line="293" selection-start-column="118" selection-end-line="293" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classeupdate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2693662">
+          <caret line="81" column="83" selection-start-line="81" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/V4_PESSOAFISICA.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33208254">
+          <caret line="68" column="18" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imprimirnovocva.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conexaoadodb_oracle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eliminausuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5387324">
+          <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INCLUIRUSUARIO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36210132">
+          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GRUPOUSUARIO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52112675">
+          <caret line="86" column="15" selection-start-line="86" selection-start-column="15" selection-end-line="86" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INCLUIRUSUARIO2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33208254">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ELIMINARFUNCAOGRUPO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3937154">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="97" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eliminafinalfuncaogrupo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.961538">
+          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/USUARIONOGRUPO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52112675">
+          <caret line="132" column="22" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eliminafinalusuariogrupo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3943661">
+          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="36" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rodapepagina.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29929578">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classepesquisanova2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4150944">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4339623">
+          <caret line="188" column="13" selection-start-line="188" selection-start-column="10" selection-end-line="188" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classeeliminanaojob.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3962264">
+          <caret line="119" column="6" selection-start-line="119" selection-start-column="6" selection-end-line="124" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/barraacao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.076923">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exclusaoordens.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3962264">
+          <caret line="97" column="93" selection-start-line="97" selection-start-column="90" selection-end-line="97" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manipulasql.class_oraclenovo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6153846">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classepesquisa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18853974">
+          <caret line="271" column="16" selection-start-line="271" selection-start-column="16" selection-end-line="271" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baixamanutencao_versao5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36414048">
+          <caret line="636" column="0" selection-start-line="636" selection-start-column="0" selection-end-line="636" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.089788735">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consultaordensv6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5660377">
+          <caret line="763" column="54" selection-start-line="763" selection-start-column="54" selection-end-line="763" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/painelcorretivashopping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36914062">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/painelcorretivateste_view_kyly2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43992606">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="70" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/painelsemana2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33271718">
+          <caret line="387" column="70" selection-start-line="387" selection-start-column="63" selection-end-line="387" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/painelsemana1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33271718">
+          <caret line="160" column="25" selection-start-line="160" selection-start-column="22" selection-end-line="160" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUSTOPADRAO3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3584905">
+          <caret line="732" column="0" selection-start-line="732" selection-start-column="0" selection-end-line="732" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ordempdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94014084">
+          <caret line="415" column="45" selection-start-line="415" selection-start-column="45" selection-end-line="415" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listaacessousuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8301886">
+          <caret line="316" column="23" selection-start-line="316" selection-start-column="17" selection-end-line="316" selection-end-column="23" />
+          <folding>
+            <element signature="e#4016#5430#0#PHP" expanded="false" />
+            <element signature="e#5435#8349#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classeelimina.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.461538">
+          <caret line="98" column="65" selection-start-line="98" selection-start-column="65" selection-end-line="98" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consultacustoatividade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5368421">
+          <caret line="126" column="49" selection-start-line="126" selection-start-column="49" selection-end-line="126" selection-end-column="49" />
+          <folding>
+            <element signature="e#10382#10437#0#PHP" expanded="false" />
+            <element signature="e#10442#10493#0#PHP" expanded="false" />
+            <element signature="e#10499#10548#0#PHP" expanded="false" />
+            <element signature="e#10553#10616#0#PHP" expanded="false" />
+            <element signature="e#10621#10676#0#PHP" expanded="false" />
+            <element signature="e#10681#10738#0#PHP" expanded="false" />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select vl_pa..parametro_grafico..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select vl_pa..parametro_grafico..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select vl_pa..parametro_grafico..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select disti..parametro_grafico..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select TO_CH..AUX_CONSULTA_CUSTO_ATIV..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select a.cd_..rot_compo_mt..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select a.cd_..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select a.cd_..rot_compo_pc..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select sum(a..rot_compo_mt..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="UPDATE AUX_C..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select sum(a..rot_compo_pc..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="UPDATE AUX_C..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select CD_CO..AUX_CONSULTA_CUSTO_ATIV..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="UPDATE AUX_C..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select TO_CH..AUX_CONSULTA_CUSTO_ATIV..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select CD_CO..AUX_CONSULTA_CUSTO_ATIV..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="UPDATE AUX_C..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="SELECT MAX(N..parametro_grafico..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="SELECT MAX(N..parametro_grafico..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="SELECT MAX(N..parametro_grafico..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select vl_pa..parametro_grafico..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select vl_pa..parametro_grafico..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select vl_pa..parametro_grafico..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select disti..parametro_grafico..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="SELECT * fro..CD_MAQUINA..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="select CD_MA..AUX_CONSULTA_CUSTO_ATIV..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="SELECT count..AUX_CONSULTA_CUSTO_ATIV..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="SELECT DS_FA..FABRICAS..." />
+            <marker date="1441900219991" expanded="true" signature="-1:-1" placeholder="SELECT CD_FA..FABRICAS..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consultaequipamentov10.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20702402">
+          <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
+          <folding>
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="SELECT DS_UR..parametros..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="select ID_SI..AUX_FILTRO..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="select a.cd_..MAQUINAS..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="select ID_SI..AUX_FILTRO..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="select disti..fabricas..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="select disti..familias..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="select disti..fabricas..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="select count..MAQUINAS..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="select count..MAQUINAS..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="select count..MAQUINAS..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="select count..MAQUINAS..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="select disti..fabricas..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="select count..MAQUINAS..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="select count..MAQUINAS..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="select count..MAQUINAS..." />
+            <marker date="1442241524149" expanded="true" signature="-1:-1" placeholder="select count..MAQUINAS..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consultamtbf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.962264">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <folding>
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT DS_UR..parametros..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="update MTBF ..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="delete from ..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT MAX(N..parametro_grafico..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT MAX(N..parametro_grafico..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT MAX(N..parametro_grafico..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT MAX(N..parametro_grafico..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT MAX(N..parametro_grafico..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT MAX(N..parametro_grafico..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT MAX(N..parametro_grafico..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT count..MTBF..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT * fro..CD_EQUIPAMENTO..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT CD_EQ..MTBF..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT DS_FA..FABRICAS..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT CD_FA..FABRICAS..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT DS_AR..areas..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT CD_AR..areas..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT DS_SE..secaos..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT CD_SE..secaos..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT CD_CE..centro_trabalhos..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT CD_CE..centro_trabalhos..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT DS_CO..componente_auxiliar..." />
+            <marker date="1442241675829" expanded="true" signature="-1:-1" placeholder="SELECT disti..ordem_comp..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.259259">
+          <caret line="789" column="16" selection-start-line="789" selection-start-column="16" selection-end-line="789" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classepesquisanova.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4339623">
+          <caret line="331" column="16" selection-start-line="331" selection-start-column="16" selection-end-line="331" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1442331427273" expanded="true" signature="1017:1080" placeholder="delete from ..." />
+            <marker date="1442331427273" expanded="true" signature="1169:1322" placeholder="select cd_fa..usuario_fabrica..." />
+            <marker date="1442331427273" expanded="true" signature="1229:1321" placeholder="select cd_us..usuario_bi..." />
+            <marker date="1442331427273" expanded="true" signature="1508:1624" placeholder="insert into ..." />
+            <marker date="1442331427273" expanded="true" signature="1780:1843" placeholder="delete from ..." />
+            <marker date="1442331427273" expanded="true" signature="1936:2048" placeholder="insert into ..." />
+            <marker date="1442331427273" expanded="true" signature="2412:2481" placeholder="SELECT DS_FA..FABRICAS..." />
+            <marker date="1442331427273" expanded="true" signature="2992:3233" placeholder="SELECT CD_FA..FABRICAS..." />
+            <marker date="1442331427273" expanded="true" signature="3077:3223" placeholder="select cd_fa..usuario_fabrica..." />
+            <marker date="1442331427273" expanded="true" signature="3137:3222" placeholder="select cd_us..usuario_bi..." />
+            <marker date="1442331427273" expanded="true" signature="4384:4462" placeholder="SELECT DS_CO..COMPONENTE_AUXILIAR..." />
+            <marker date="1442331427273" expanded="true" signature="4986:5723" placeholder="SELECT DISTI..ROT_COMPO..." />
+            <marker date="1442331427273" expanded="true" signature="4986:6366" placeholder="SELECT DISTI..." />
+            <marker date="1442331427273" expanded="true" signature="5762:6366" placeholder="SELECT DISTI..EMER_COMP..." />
+            <marker date="1442331427273" expanded="true" signature="7594:7660" placeholder="SELECT DS_FA..FAMILIAS..." />
+            <marker date="1442331427273" expanded="true" signature="8165:8798" placeholder="SELECT DISTI..ROT_COMPO..." />
+            <marker date="1442331427273" expanded="true" signature="8165:9363" placeholder="SELECT DISTI..." />
+            <marker date="1442331427273" expanded="true" signature="8819:9363" placeholder="SELECT DISTI..EMER_COMP..." />
+            <marker date="1442331427273" expanded="true" signature="10135:10930" placeholder="SELECT DISTI..ROT_COMPO..." />
+            <marker date="1442331427273" expanded="true" signature="11627:11737" placeholder="SELECT DISTI..COMPONENTE_AUXILIAR..." />
+            <marker date="1442331427273" expanded="true" signature="13488:13764" placeholder="SELECT min(a..aux_semana..." />
+            <marker date="1442331427273" expanded="true" signature="14459:14690" placeholder="SELECT disti..aux_semana..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consultapcmanual.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6792455">
+          <caret line="167" column="7" selection-start-line="167" selection-start-column="7" selection-end-line="167" selection-end-column="32" />
+          <folding>
+            <marker date="1442331671662" expanded="true" signature="7531:7670" placeholder="SELECT count..UNID_MAQ..." />
+            <marker date="1442331671662" expanded="true" signature="8068:9598" placeholder="SELECT DISTI..ROT_COMPO..." />
+            <marker date="1442331671662" expanded="true" signature="8068:10865" placeholder="SELECT DISTI..." />
+            <marker date="1442331671662" expanded="true" signature="8922:8994" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="9047:9230" placeholder="select cd_un..UNID_MAQ..." />
+            <marker date="1442331671662" expanded="true" signature="9102:9174" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="9282:9465" placeholder="select cd_ma..UNID_MAQ..." />
+            <marker date="1442331671662" expanded="true" signature="9336:9408" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="9525:9597" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="9627:10818" placeholder="SELECT DISTI..EMER_COMP..." />
+            <marker date="1442331671662" expanded="true" signature="10319:10503" placeholder="select cd_un..UNID_MAQ..." />
+            <marker date="1442331671662" expanded="true" signature="10374:10446" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="10555:10738" placeholder="select cd_ma..UNID_MAQ..." />
+            <marker date="1442331671662" expanded="true" signature="10609:10681" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="10979:12311" placeholder="SELECT DISTI..EMER_COMP..." />
+            <marker date="1442331671662" expanded="true" signature="11642:11714" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="11767:11950" placeholder="select cd_un..UNID_MAQ..." />
+            <marker date="1442331671662" expanded="true" signature="11821:11893" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="12002:12184" placeholder="select cd_ma..UNID_MAQ..." />
+            <marker date="1442331671662" expanded="true" signature="12055:12127" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="12427:13904" placeholder="SELECT DISTI..ROT_COMPO..." />
+            <marker date="1442331671662" expanded="true" signature="13282:13354" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="13407:13590" placeholder="select cd_un..UNID_MAQ..." />
+            <marker date="1442331671662" expanded="true" signature="13461:13533" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="13642:13824" placeholder="select cd_ma..UNID_MAQ..." />
+            <marker date="1442331671662" expanded="true" signature="13695:13767" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="14118:15159" placeholder="SELECT DISTI..ROT_COMPO..." />
+            <marker date="1442331671662" expanded="true" signature="14118:16062" placeholder="SELECT DISTI..." />
+            <marker date="1442331671662" expanded="true" signature="14972:15044" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="15188:16015" placeholder="SELECT DISTI..EMER_COMP..." />
+            <marker date="1442331671662" expanded="true" signature="15827:15899" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="16176:17073" placeholder="SELECT DISTI..EMER_COMP..." />
+            <marker date="1442331671662" expanded="true" signature="16839:16911" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="17188:18230" placeholder="SELECT DISTI..ROT_COMPO..." />
+            <marker date="1442331671662" expanded="true" signature="18043:18115" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="21320:22482" placeholder="SELECT DISTI..ROT_COMPO..." />
+            <marker date="1442331671662" expanded="true" signature="21320:23563" placeholder="SELECT DISTI..." />
+            <marker date="1442331671662" expanded="true" signature="22409:22481" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="22511:23563" placeholder="SELECT DISTI..EMER_COMP..." />
+            <marker date="1442331671662" expanded="true" signature="23389:23461" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="24656:26024" placeholder="SELECT count..ROT_COMPO..." />
+            <marker date="1442331671662" expanded="true" signature="25951:26023" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="26441:27590" placeholder="SELECT count..EMER_COMP..." />
+            <marker date="1442331671662" expanded="true" signature="27357:27429" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="29025:29098" placeholder="select ds_at..atividades..." />
+            <marker date="1442331671662" expanded="true" signature="29269:29670" placeholder="select disti..atividades..." />
+            <marker date="1442331671662" expanded="true" signature="30582:31070" placeholder="select disti..atividades..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONSULTAplanomesV2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0655737">
+          <caret line="188" column="17" selection-start-line="188" selection-start-column="17" selection-end-line="188" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#4;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1442331671662" expanded="true" signature="7304:8276" placeholder="SELECT DISTI..ROT_COMPO..." />
+            <marker date="1442331671662" expanded="true" signature="7304:9234" placeholder="SELECT DISTI..." />
+            <marker date="1442331671662" expanded="true" signature="8142:8214" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="8305:9187" placeholder="SELECT DISTI..EMER_COMP..." />
+            <marker date="1442331671662" expanded="true" signature="9053:9125" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="9347:10276" placeholder="SELECT DISTI..EMER_COMP..." />
+            <marker date="1442331671662" expanded="true" signature="10095:10167" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="10392:11363" placeholder="SELECT DISTI..ROT_COMPO..." />
+            <marker date="1442331671662" expanded="true" signature="11229:11301" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331671662" expanded="true" signature="13221:14100" placeholder="SELECT count..ROT_COMPO..." />
+            <marker date="1442331671662" expanded="true" signature="13221:14936" placeholder="SELECT count..." />
+            <marker date="1442331671662" expanded="true" signature="14129:14936" placeholder="SELECT COUNT..EMER_COMP..." />
+            <marker date="1442331671662" expanded="true" signature="15475:16660" placeholder="SELECT to_ch..ROT_COMPO..." />
+            <marker date="1442331671662" expanded="true" signature="15475:17787" placeholder="SELECT to_ch..." />
+            <marker date="1442331671662" expanded="true" signature="16689:17787" placeholder="SELECT to_ch..EMER_COMP..." />
+            <marker date="1442331671662" expanded="true" signature="20679:21582" placeholder="SELECT count..ROT_COMPO..." />
+            <marker date="1442331671662" expanded="true" signature="20679:22459" placeholder="SELECT count..." />
+            <marker date="1442331671662" expanded="true" signature="21611:22459" placeholder="SELECT COUNT..EMER_COMP..." />
+            <marker date="1442331671662" expanded="true" signature="26274:26347" placeholder="select ds_at..atividades..." />
+            <marker date="1442331671662" expanded="true" signature="26531:26932" placeholder="select disti..atividades..." />
+            <marker date="1442331671662" expanded="true" signature="27927:28415" placeholder="select disti..atividades..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONSULTAplanomessemanaV2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13863216">
+          <caret line="325" column="18" selection-start-line="325" selection-start-column="18" selection-end-line="325" selection-end-column="18" />
+          <folding>
+            <element signature="e#14183#15143#0#PHP" expanded="false" />
+            <element signature="e#15169#16169#0#PHP" expanded="false" />
+            <element signature="e#16800#17947#0#PHP" expanded="false" />
+            <marker date="1442331796051" expanded="true" signature="6461:6845" placeholder="SELECT a.nr_..aux_semana..." />
+            <marker date="1442331796051" expanded="true" signature="6769:6844" placeholder="select MIN(N..aux_semana..." />
+            <marker date="1442331796051" expanded="true" signature="7402:7534" placeholder="SELECT NR_DI..aux_semana..." />
+            <marker date="1442331796051" expanded="true" signature="7965:8090" placeholder="SELECT MIN(N..aux_semana..." />
+            <marker date="1442331796051" expanded="true" signature="8440:8565" placeholder="SELECT NR_DI..aux_semana..." />
+            <marker date="1442331796051" expanded="true" signature="8919:9058" placeholder="SELECT NR_DI..aux_semana..." />
+            <marker date="1442331796051" expanded="true" signature="9498:9634" placeholder="SELECT NR_DI..aux_semana..." />
+            <marker date="1442331796051" expanded="true" signature="12349:13246" placeholder="SELECT DISTI..ROT_COMPO..." />
+            <marker date="1442331796051" expanded="true" signature="12349:14126" placeholder="SELECT DISTI..." />
+            <marker date="1442331796051" expanded="true" signature="13116:13188" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331796051" expanded="true" signature="13267:14083" placeholder="SELECT DISTI..EMER_COMP..." />
+            <marker date="1442331796051" expanded="true" signature="13953:14025" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331796051" expanded="true" signature="14254:15113" placeholder="SELECT DISTI..EMER_COMP..." />
+            <marker date="1442331796051" expanded="true" signature="14940:15012" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331796051" expanded="true" signature="15241:16137" placeholder="SELECT DISTI..ROT_COMPO..." />
+            <marker date="1442331796051" expanded="true" signature="16007:16079" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331796051" expanded="true" signature="17185:17253" placeholder="SELECT DS_CO..COMPONENTE_AUXILIAR..." />
+            <marker date="1442331796051" expanded="true" signature="18717:19512" placeholder="SELECT count..ROT_COMPO..." />
+            <marker date="1442331796051" expanded="true" signature="18717:20257" placeholder="SELECT count..." />
+            <marker date="1442331796051" expanded="true" signature="19439:19511" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331796051" expanded="true" signature="19533:20257" placeholder="SELECT COUNT..EMER_COMP..." />
+            <marker date="1442331796051" expanded="true" signature="20095:20167" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331796051" expanded="true" signature="20905:21991" placeholder="SELECT to_ch..ROT_COMPO..." />
+            <marker date="1442331796051" expanded="true" signature="20905:23020" placeholder="SELECT to_ch..." />
+            <marker date="1442331796051" expanded="true" signature="21918:21990" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331796051" expanded="true" signature="22012:23020" placeholder="SELECT to_ch..EMER_COMP..." />
+            <marker date="1442331796051" expanded="true" signature="22947:23019" placeholder="select cd_un..AUX_USUARIO_UNIDADE..." />
+            <marker date="1442331796051" expanded="true" signature="26311:27071" placeholder="SELECT count..ROT_COMPO..." />
+            <marker date="1442331796051" expanded="true" signature="26311:27790" placeholder="SELECT count..." />
+            <marker date="1442331796051" expanded="true" signature="27092:27790" placeholder="SELECT COUNT..EMER_COMP..." />
+            <marker date="1442331796051" expanded="true" signature="36033:36862" placeholder="SELECT DISTI..ROT_COMPO..." />
+            <marker date="1442331796051" expanded="true" signature="36033:37679" placeholder="SELECT DISTI..." />
+            <marker date="1442331796051" expanded="true" signature="36883:37557" placeholder="SELECT DISTI..EMER_COMP..." />
+            <marker date="1442331796051" expanded="true" signature="37795:38590" placeholder="SELECT DISTI..EMER_COMP..." />
+            <marker date="1442331796051" expanded="true" signature="38706:39538" placeholder="SELECT DISTI..ROT_COMPO..." />
+            <marker date="1442331796051" expanded="true" signature="40440:40508" placeholder="SELECT DS_CO..COMPONENTE_AUXILIAR..." />
+            <marker date="1442331796051" expanded="true" signature="41921:42670" placeholder="SELECT count..ROT_COMPO..." />
+            <marker date="1442331796051" expanded="true" signature="41921:43372" placeholder="SELECT count..." />
+            <marker date="1442331796051" expanded="true" signature="42691:43372" placeholder="SELECT COUNT..EMER_COMP..." />
+            <marker date="1442331796051" expanded="true" signature="43982:45016" placeholder="SELECT to_ch..ROT_COMPO..." />
+            <marker date="1442331796051" expanded="true" signature="43982:45987" placeholder="SELECT to_ch..." />
+            <marker date="1442331796051" expanded="true" signature="45037:45987" placeholder="SELECT to_ch..EMER_COMP..." />
+            <marker date="1442331796051" expanded="true" signature="49261:50029" placeholder="SELECT count..ROT_COMPO..." />
+            <marker date="1442331796051" expanded="true" signature="49261:50763" placeholder="SELECT count..." />
+            <marker date="1442331796051" expanded="true" signature="50050:50763" placeholder="SELECT COUNT..EMER_COMP..." />
+            <marker date="1442331796051" expanded="true" signature="55473:56222" placeholder="SELECT count..ROT_COMPO..." />
+            <marker date="1442331796051" expanded="true" signature="55473:56924" placeholder="SELECT count..." />
+            <marker date="1442331796051" expanded="true" signature="56243:56924" placeholder="SELECT COUNT..EMER_COMP..." />
+            <marker date="1442331796051" expanded="true" signature="57600:58634" placeholder="SELECT to_ch..ROT_COMPO..." />
+            <marker date="1442331796051" expanded="true" signature="57600:59610" placeholder="SELECT to_ch..." />
+            <marker date="1442331796051" expanded="true" signature="58655:59610" placeholder="SELECT to_ch..EMER_COMP..." />
+            <marker date="1442331796051" expanded="true" signature="63083:63873" placeholder="SELECT count..ROT_COMPO..." />
+            <marker date="1442331796051" expanded="true" signature="63083:64624" placeholder="SELECT count..." />
+            <marker date="1442331796051" expanded="true" signature="63894:64624" placeholder="SELECT COUNT..EMER_COMP..." />
+            <marker date="1442331796051" expanded="true" signature="69423:69496" placeholder="select ds_at..atividades..." />
+            <marker date="1442331796051" expanded="true" signature="69704:70105" placeholder="select disti..atividades..." />
+            <marker date="1442331796051" expanded="true" signature="71268:71756" placeholder="select disti..atividades..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

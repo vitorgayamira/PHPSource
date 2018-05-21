@@ -1,0 +1,337 @@
+<style>
+
+body{
+background: url(apresentacao3.jpg) no-repeat;
+width:970px;
+    height:480px;
+
+
+}
+
+
+
+A:link {
+	COLOR:; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: ; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR:blue ; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+
+BODY {
+	MARGIN: 10px; BACKGROUND-COLOR: red;
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica;background-color:white;
+	SCROLLBAR-FACE-COLOR: #DCE5EC;
+    SCROLLBAR-HIGHLIGHT-COLOR: #c0c0c0;
+    SCROLLBAR-SHADOW-COLOR: #000000;
+    SCROLLBAR-3DLIGHT-COLOR: #000000;
+    SCROLLBAR-ARROW-COLOR: #000000;
+    SCROLLBAR-TRACK-COLOR: #c0c0c0;
+    SCROLLBAR-DARKSHADOW-COLOR: #c0c0c0;
+   
+
+}
+DIV {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica;
+}
+TABLE {
+	border-right-width:1px;
+	border-left-width:1px;
+	border-right-color:#ffffff;
+	border-left-color:#ffffff;
+
+}
+
+TD {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica;
+	PADDING: 2;
+}
+TEXTAREA {
+	BORDER-RIGHT: #6073a5 1px solid; BORDER-TOP: #6073a5 1px solid; BORDER-LEFT: #6073a5 1px solid; BORDER-BOTTOM: #6073a5 1px solid
+}
+SELECT {
+	BORDER-RIGHT: #6073a5 1px solid; BORDER-TOP: #6073a5 1px solid; BORDER-LEFT: #6073a5 1px solid; BORDER-BOTTOM: #6073a5 1px solid
+}
+INPUT {
+	BORDER-RIGHT: #6073a5 1px solid; 
+	BORDER-TOP: #6073a5 1px solid; 
+	BORDER-LEFT: #6073a5 1px solid; 
+	BORDER-BOTTOM: #6073a5 1px solid; 
+	}
+}
+
+.input-lbl {
+	FONT-WEIGHT: bold; COLOR: #1f3d7d;
+}
+}
+.input-msg {
+	FONT-SIZE: 10px; COLOR: #1f3d7d;
+}
+     
+
+.input-number {TEXT-ALIGN: right;padding-right:5;}
+/* bgreadonly = {#f5f6f7,#D9DADC}*/
+.input-readonly { 
+	BORDER-RIGHT: #6073a5 1px solid; BORDER-TOP: #6073a5 1px solid; BORDER-LEFT: #6073a5 1px solid; 
+	COLOR: #7f8082; BORDER-BOTTOM: #6073a5 1px solid; BACKGROUND-COLOR: #D9DADC
+}
+.input-readonly2 {
+	BORDER-RIGHT: #6073a5 1px solid; BORDER-TOP: #6073a5 1px solid; BORDER-LEFT: #6073a5 1px solid; 
+	COLOR: #7f8082; BORDER-BOTTOM: #6073a5 1px solid; BACKGROUND-COLOR: #D9DADC; TEXT-ALIGN: right
+}
+.respiro-texto {
+	LINE-HEIGHT: 15px
+}
+
+/* Tabelas */
+.trhover {background:yellow;}
+.tb {width:740} /* tamanho padrão tabelas */
+
+/* Backgrounds*/
+.bg{BACKGROUND-COLOR: white;}
+.bg-impar{background:#D9DADC}
+.bg-par{background:#FFFFFF} 
+.bg-header{background:lightblue;font: bold;color:white}
+.bg-hover{BACKGROUND-COLOR: #DCE5EC;}
+
+
+
+/* Scroll das tabelas */
+.divscroll {
+	height:350px;width:760px;clip:rect(0px,50px,50px,0px);
+	overflow:auto;margin-top:1px;margin-right:2px;margin-bottom:3px;margin-left:4px;
+	border-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;
+	border-left-width:1px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;
+	visibility:visible;z-index:10;background-color:#ffffff;color:#000000;
+}
+
+
+.tooltip{z-index: 9;position:absolute; color:#000000; background-color:#ffff99; border:1px solid #000000; padding:1px; visibility:hidden; -moz-opacity:0%;}
+.bloco  {
+	position     : absolute;
+	top        : 40px;
+	left       : 0px;
+	width      : 130px;
+	padding    : 0px;
+	background : white;
+}
+.bloco td  {
+	padding    : 0px 0px 0px 5px;
+}
+
+#menu {
+	background: #F3F3F3;
+	height: 27px;
+	margin: 0; padding: 0;
+	width:750
+	}
+
+	#menu ul {
+	margin: 0; padding: 0;
+	margin-left: 0px;
+	
+	}
+
+	#menu ul li {
+	display: inline;
+	
+	}
+
+	#menu ul li a {
+	background: #F3F3F3;
+	color: black;
+	border: #F3F3F3;
+	border-bottom: #F3F3F3;
+	float: left;
+	padding: 5px 7px;
+	margin: 0px;
+	text-decoration: none;
+	}
+	#menu ul li a:hover {
+	background: #F3F3F3;
+	color: #F00;
+	border: brack;
+	border-bottom: none;
+	text-decoration: none;
+	}
+
+div.titulo1{
+    padding: 0px 0 0 0px;
+    margin: 1;
+    background:MidnightBlue;
+	width:1000;
+	height:22px;
+
+
+}
+div.titulo2{
+    padding: 10px 0 0 5px;
+    margin: 0;
+    background:white;
+	width:940;
+	height:19px;
+	/*border: 1px solid; /* As 4 bordas sólidas com 25px de espessura */
+    border-color: blue;
+
+
+}
+
+
+div.separacaotitulo{
+    padding: 10px 0 0 5px;
+    margin: 0;
+    background:red;
+	width:600;
+	height:0.4px;
+
+
+}
+
+div.figura {
+  float: right;
+  width: 50%;
+  height:100%;
+  border: thin silver solid;
+  margin: 0.5em;
+  /*padding: 0.5em;*/
+  
+}
+
+escala {
+  width: 100%;
+}
+
+
+
+div.noticia{
+    /*padding: 10px 0 0 5px;*/
+    /*margin: 0;*/
+
+    background:black;
+    /*background:class="escala" src="campo.jpg";*/
+    background:white url("teste9.jpg") 	left:10%;top:0%;
+
+
+    overflow:hidden
+	/*background-image: url("campo.jpg") ;*/
+    /*background-repeat: no-repeat;*/
+   /* background-attachment: fixed;*/
+   /*background-position: center;*/
+   
+
+
+	border: 1px solid; /* As 4 bordas sólidas com 25px de espessura */
+    border-color: blue;
+	width:970;
+    height:480px;
+
+}
+
+div.entrada{
+    /*padding: 10px 0 0 5px;*/
+    /*margin: 0;*/
+
+    background:black;
+    /*background:class="escala" src="campo.jpg";*/
+    background:white url("teste4.jpg") 	left:10%;top:0% ;
+
+
+    overflow:hidden
+	/*background-image: url("campo.jpg") ;*/
+    /*background-repeat: no-repeat;*/
+   /* background-attachment: fixed;*/
+   /*background-position: center;*/
+
+
+
+	border: 1px solid; /* As 4 bordas sólidas com 25px de espessura */
+    border-color: blue;
+	width:90%;
+    height:100%;
+
+}
+
+div.rodape{
+    padding: 10px 0 0 5px;
+    margin: 0;
+    background:RED;
+	width:850;
+	left:356px;
+	height:29;
+   /*border: 1px solid; /* As 4 bordas sólidas com 25px de espessura */
+    border-color: black;
+
+}
+
+div.noticia3{
+    padding: 10px 0 0 5px;
+    margin: 0;
+    background:#E0EEEE;
+	width:800;
+	height:500px;
+
+
+
+}
+div.titulo3{
+    padding: 10px 0 0 5px;
+    margin: 0;
+    background:MidnightBlue;
+	width:800;
+	height:19px;
+
+
+}
+
+div.mostra{
+position: absolute;
+left: 9 px; /*posição à direita*/
+top: 5 px; /*posição abaixo*/
+    /*background: url(teste7.jpg) no-repeat;*/
+    background:white;
+	width:200;
+	height:212px;
+    border: 1px solid black;
+
+ 
+
+
+ }
+ 
+
+ 
+ div.mostraconteudo{
+position: absolute;
+left: 9 px; /*posição à direita*/
+top: 235 px; /*posição abaixo*/
+    background:white;
+	width:200;
+	height:30px;
+ border: 1px solid black;
+
+
+ }
+ 
+ div.mostrarodape{
+position: absolute;
+left: 9 px; /*posição à direita*/
+top: 265 px; /*posição abaixo*/
+    background: url(teste7.jpg) no-repeat;
+	width:200;
+	height:100px;
+ border: 1px solid black;
+
+
+ }
+
+
+
+
+
+</style>
+

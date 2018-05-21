@@ -1,0 +1,48 @@
+
+create table SERV_TERC_PEDIDO_ACESSO
+(
+  NR_PEDIDO              NUMBER not null,
+  DATA_DIGITACAO         DATE,
+  DATA_EMISSAO           DATE not null,
+  CD_EMPRESA_ACESSO         NUMBER(11) not null,
+  CD_EMPRESA_SOLICITANTE NUMBER(11) not null,
+  NR_ORDEM_SERVICO       NUMBER,
+  ID_STATUS              VARCHAR2(4)
+)
+
+create table SOLICITACAO_MOTIVO_ACESSO
+(
+  NR_SEQUENCIA        NUMBER(15,2) not null,
+  NR_PEDIDO           NUMBER not null,
+  CD_EMPRESA_ACESSO         NUMBER(11) not null,
+  CD_EMPRESA_SOLICITANTE          NUMBER(11) not null,
+  CD_SERVICO          NUMBER not null,
+  CD_MOTIVO           NUMBER not null,
+  DS_SOLICITANTE      VARCHAR2(200),
+  CD_PESSOA_SOLICITANTE NUMBER(11) not null
+)
+
+
+
+
+
+create table SOLICITACAO_MOTIVO_FUNC_ACESSO
+(
+  NR_SEQUENCIA             NUMBER(15,2) not null,
+  NR_PEDIDO                NUMBER not null,
+  CD_EMPRESA_ACESSO           NUMBER(11) not null,
+  CD_EMPRESA_SOLICITANTE               NUMBER(11) not null,
+  CD_SERVICO               NUMBER not null,
+  CD_MOTIVO                NUMBER not null,
+  CD_FUNCIONARIO           NUMBER(11) not null,
+  DS_EXECUTOR              VARCHAR2(200),
+  DT_LIMITE_ACESSO_INICIAL DATE,
+  DT_LIMITE_ACESSO_FINAL   DATE,
+  ID_LIBERADO              VARCHAR2(1) not null,
+  HR_INICIO                VARCHAR2(5),
+  HR_FINAL                 VARCHAR2(5)
+)
+
+
+
+

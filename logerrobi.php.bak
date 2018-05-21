@@ -1,0 +1,37 @@
+<?
+
+
+
+  if(empty($erromostra)  )
+  {
+  ?>
+  <script type="text/javascript">
+   var mensagem = "Ação com Sucesso!";
+   alert(mensagem);
+   alert(mensagem);
+   document.getElementById('janelagrande1acesso').style.display = 'none';
+   document.getElementById('janelagrande1').style.display = 'none';
+   document.getElementById('novoscadastros1').style.display = 'none';
+
+  </script>
+  <?
+   if ($ficartela=="sim"){}else{require($programa);}
+
+  }
+  else
+  {
+   ?>
+       <script type="text/javascript">
+       var mensagem = "<?echo $erromostra;?>";
+       alert(mensagem);
+       document.getElementById('janelagrande1acesso').style.display = 'none';
+       document.getElementById('janelagrande1').style.display = 'none';
+       document.getElementById('novoscadastros1').style.display = 'none';
+       </script>
+       <?
+  
+
+  if ($ficartela=="sim"){}else{require($programa);}
+
+  }
+?>
